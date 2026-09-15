@@ -1,0 +1,20 @@
+{
+  "name": "tailefeihome",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178 --strictPort",
+    "build": "vite build",
+    "generate:assets": "node scripts/generate-assets.mjs",
+    "stock:assets": "node scripts/download-stock-assets.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "sharp": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
